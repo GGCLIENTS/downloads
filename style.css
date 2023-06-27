@@ -1,4 +1,10 @@
-
+.header{
+    display: flex;
+    background-color: black;
+    border: 15px solid rgb(87, 220,47);
+    border-radius: 15px;
+    height: 120px;
+}
 body{
     background-color: rgb(52, 48, 48);;
 }
@@ -10,6 +16,53 @@ h1{
     justify-content: center;
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    border-right: 15px solid rgb(87, 220, 47);
+    width: 100px;
+    height: 91px;
+}
+.one{
+    display: flex;
+    color:rgb(87, 220, 47);
+    align-items: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(87, 220, 47);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 800px;
+    text-decoration: none;
+    width: 250px;
+    transition: background-color 1s;
+}
+.contact:hover{
+    background-color:rgb(87, 220, 47);
+    color: black;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(87, 220, 47);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 600px;
+    text-decoration: none;
+    width: 250px;
+    transition: background-color 1s;
+}
+.contact:hover{
+    background-color:rgb(87, 220, 47);
+    color: black;
 }
 .amongus{
     display: flex;
@@ -27,86 +80,28 @@ h1{
     background-color:rgb(87, 220, 47);
     color: black;
 }
-.java {
-    text-decoration: none;
+.container a{
     background-color:rgb(87, 220, 47);
-    border: 5px solid black;
-    font-size: 40px;
-    border-radius: 15px;
-    color: black;
-    margin-left: 500px;
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 1s;
-    transition: color 1s;
-    display: flex;
-    width: 850px;
-    margin-left: 350px;
-}
-.bedrock{
     text-decoration: none;
-    background-color:rgb(87, 220, 47);
-    border: 5px solid black;
-    font-size: 40px;
-    border-radius: 15px;
     color: black;
-    margin-left: 460px;
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 1s;
-    transition: color 1s;
+    font-size: 30px;
     display: flex;
-    width: 850px;
-    margin-left: 350px;
-}
-.bedrock:hover{
-    background-color: rgb(26, 191, 26);
-    color: rgb(123, 120, 120);
-}
-.java:hover{
-    background-color: rgb(26, 191, 26);
-    color: rgb(123, 120, 120);
-}
-.injector{
-    text-decoration: none;
-    background-color:rgb(87, 220, 47);
-    border: 5px solid black;
-    font-size: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 4px solid black;
     border-radius: 15px;
-    color: black;
-    margin-left: 670px;
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 1s;
+    height: 70px;
     transition: color 1s;
-    display: flex;
-    width: 850px;
-    margin-left: 350px;
-}
-.injector:hover{
-    background-color: rgb(26, 191, 26);
-    color: rgb(123, 120, 120);
-}
-.tools{
-    text-decoration: none;
-    background-color:rgb(87, 220, 47);
-    border: 5px solid black;
-    font-size: 40px;
-    border-radius: 15px;
-    color: black;
-    margin-left: 619px;
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
     transition: background-color 1s;
-    transition: color 1s;
-    display: flex;
-    width: 850px;
-    margin-left: 350px;
 }
-.tools:hover{
-    background-color: rgb(26, 191, 26);
-    color: rgb(123, 120, 120);
+.container a:hover{
+    background-color:rgb(121, 120, 120);
+    color:rgb(87, 220, 47);
 }
+
+
 .Downloads a{
     justify-content: center;
     align-content: center;
