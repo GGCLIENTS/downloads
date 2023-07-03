@@ -112,6 +112,7 @@ h1{
     height: 40vh;
     background-color: rgb(43, 42, 42);
     position: relative;
+    margin-top: 40px;
 }
  h2{
     color: white;
